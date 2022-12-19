@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Dogs mate (Continued Dev)</name>
-  <packageId>Mlie.HobGoblin.DogsMate.dev</packageId>
+  <name>Dogs mate (Continued)</name>
+  <packageId>Mlie.DogsMate</packageId>
   <author>Revolus, Mlie, Real Life Hobgoblin</author>
   <url>https://github.com/Draconomial/DogsMate</url>
   <supportedVersions>
