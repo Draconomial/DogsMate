@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Animals Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Cheetah"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Cheetah</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Giraffe"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Giraffe</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Wolf"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Coyote</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Hippopotamus"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Hippopotamus</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Antelope"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Wildebeest</li>
+          </value>
+        </li>
+		<li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Platypus"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Platypus</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Kangaroo"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Kangaroo</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Wombat"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Boombat</li>
+          </value>
+        </li>
+		<li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Bear"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_BlackBear</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Otter"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Otter</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Wolf"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_ArcticCoyote</li>
+          </value>
+        </li>
+		<li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Dog"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Beagle</li>
+            <li>AEXP_Chihuahua</li>
+            <li>AEXP_Corgi</li>
+            <li>AEXP_FrenchBulldog</li>
+            <li>AEXP_GermanShepherd</li>
+            <li>AEXP_GreatDane</li>
+            <li>AEXP_Poodle</li>
+            <li>AEXP_Pug</li>
+            <li>AEXP_Rottweiler</li>
+            <li>AEXP_Shih-Tzu</li>
+            <li>AEXP_WelshTerrier</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Cat"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_CatAbyssinian</li>
+            <li>AEXP_CatBengal</li>
+            <li>AEXP_CatBritishShorthair</li>
+            <li>AEXP_CatMaineCoon</li>
+            <li>AEXP_CatMunchkin</li>
+            <li>AEXP_CatNorwegianForest</li>
+            <li>AEXP_CatPersian</li>
+            <li>AEXP_CatSiamese</li>
+            <li>AEXP_CatSomali</li>
+            <li>AEXP_CatSphynx</li>
+          </value>
+        </li>
+		<li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Lion"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Lion</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Hyena"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Hyena</li>
+          </value>
+        </li>
+		<li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Walrus"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Walrus</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Seal"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Seal</li>
+          </value>
+        </li>
+		<li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Porcupine"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Porcupine</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Deer"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Moose</li>
+          </value>
+        </li>
+		<li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Jaguar"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Jaguar</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Tapir"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Tapir</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Tiger"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Tiger</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Gorilla"]/pawnKinds</xpath>
+          <value>
+            <li>AEXP_Gorilla</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
