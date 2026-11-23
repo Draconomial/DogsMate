@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Vanilla Ranching Expanded: include its border collie in the dog breeding group. -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="VRE_Collie"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Dog"]/pawnKinds[not(li="VRE_Collie")]</xpath>
+      <success>Always</success>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/Revolus.DogsMate.AnimalGroupDef[defName="Dog"]/pawnKinds</xpath>
+        <value>
+          <li>VRE_Collie</li>
+        </value>
+      </match>
+    </match>
+  </Operation>
+</Patch>
